@@ -131,7 +131,7 @@ ___
 
 These classes can be applied to offset flex-child elements. For example, offsetting a flex-child element with `.flex-offset-3` treats that element as if it comes after another flex-child element with `.flex-width-3`. In other words, `.flex-offset-3` is equivalent to `margin-left: 25%;`. 
 
-As always, the four size names can be concatenated:
+The four size names can be concatenated:
 
 ```
 .flex-offset-2
@@ -178,7 +178,7 @@ ___
 
 `.flex-float-right` - float a flex-child element to the right
 
-The four name sizes can be concatenated:
+As always, the four name sizes can be concatenated:
 
 ```
 .flex-small-float-left
