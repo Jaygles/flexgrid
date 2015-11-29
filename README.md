@@ -27,17 +27,17 @@ The main media queries are controlled by the breakpoint variables.
 
 ###Media Queries:
 
-`@small` - (max-width: breakpoint-small) [**up to 320px**]
+`@small` - (_max-width: breakpoint-small_) [__up to 320px__]
 
-`@medium` - (min-width: breakpoint-small) and (max-width: breakpoint-medium) [**320px - 768px**]
+`@medium` - (_min-width: breakpoint-small_) and (_max-width: breakpoint-medium_) [__320px - 768px__]
 
-`@large` - (min-width: breakpoint-medium) and (max-width: breakpoint-large) [**768px - 960px**]
+`@large` - (_min-width: breakpoint-medium_) and (_max-width: breakpoint-large_) [__768px - 960px__]
 
-`@xlarge` - (min-width: breakpoint-large) [**960px+**]
+`@xlarge` - (_min-width: breakpoint-large_) [__960px+__]
 
 <br>
 
-These four size names (**small**, __medium__, large, xlarge) can be concatenated into the other classes.
+These four size names (__small__, __medium__, __large__, __xlarge__) can be concatenated into the other classes.
 
 <br>
 
@@ -48,27 +48,27 @@ ___
 
 This is a 12 grid system. To set the width of a flex-child element across all media sizes:
 
-`.flex-width-1` - occupies **1/12**<sup>th</sup> of the flex-parent width **(8.333%)**
+`.flex-width-1` - occupies **<sup>1</sup>/<sub>12<sub>**th of the flex-parent width (__8.333%)
 
-`.flex-width-2` - occupies **2/12**<sup>th</sup> of the flex-parent width **(16.666%)**
+`.flex-width-2` - occupies **2/12**<sup>th</sup> of the flex-parent width (__16.666%__)
 
-`.flex-width-3` - occupies **3/12**<sup>th</sup> of the flex-parent width **(25%)**
+`.flex-width-3` - occupies **3/12**<sup>th</sup> of the flex-parent width (__25%__)
 
-`.flex-width-6` - occupies **6/12**<sup>th</sup> of the flex-parent width **(50%)**
+`.flex-width-6` - occupies **6/12**<sup>th</sup> of the flex-parent width (__50%__)
 
-`.flex-width-12` - occupies **12/12**<sup>th</sup> of the flex-parent width **(100%)**
+`.flex-width-12` - occupies **12/12**<sup>th</sup> of the flex-parent width (__100%__)
 
 <br>
 
 As stated above, each of the four size names may be concatenated into the classes:
 
-`.flex-small-width-12` - occupies 100% of the flex-parent width on small media [up to 320px]
+`.flex-small-width-12` - occupies 100% of the flex-parent width on small media [__up to 320px__]
 
-`.flex-medium-width-6` - occupies 50% of the flex-parent width on medium media [320px - 768px]
+`.flex-medium-width-6` - occupies 50% of the flex-parent width on medium media [__320px - 768px__]
 
-`.flex-large-width-3` - occupies 25% of the flex-parent width on large media [768px - 960px]
+`.flex-large-width-3` - occupies 25% of the flex-parent width on large media [__768px - 960px__]
 
-`.flex-xlarge-width-1` - occupies 8.333% of the flex-parent width on xlarge media [960px+]
+`.flex-xlarge-width-1` - occupies 8.333% of the flex-parent width on xlarge media [__960px+__]
 
 <br>
 
