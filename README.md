@@ -11,7 +11,7 @@ Classes are meant to be applied to one element type or the other, but not both.
 <br>
 
 ___
-
+<br>
 #Breakpoints
 
 The main media queries are controlled by the breakpoint variables.
@@ -42,7 +42,7 @@ These four size names ( __small__, __medium__, __large__, __xlarge__ ) can be co
 <br>
 
 ___
-
+<br>
 #Width
 
 
@@ -95,7 +95,7 @@ Now, `.flex-width-6` will only apply at the medium and large breakpoints, becaus
 <br>
 
 ___
-
+<br>
 #Order
 
 
@@ -124,7 +124,7 @@ The maximum value for order-pos or order-neg is 12 and the minimum is 1.
 <br>
 
 ___
-
+<br>
 #Grow and Shrink
 
 
@@ -147,7 +147,7 @@ The maximum value for grow or shrink is 6 and the minimum is 1.
 <br>
 
 ___
-
+<br>
 #Utility
 
 
