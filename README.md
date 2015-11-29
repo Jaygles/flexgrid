@@ -27,17 +27,17 @@ The main media queries are controlled by the breakpoint variables.
 
 ###Media Queries:
 
-`@small` - (_max-width: breakpoint-small_) [__up to 320px__]
+`@small` - ( _max-width: breakpoint-small_ ) [__up to 320px__]
 
-`@medium` - (_min-width: breakpoint-small_) and ( _max-width: breakpoint-medium_) [__320px - 768px__]
+`@medium` - ( _min-width: breakpoint-small_ ) and ( _max-width: breakpoint-medium_ ) [__320px - 768px__]
 
-`@large` - ( _min-width: breakpoint-medium_) and ( _max-width: breakpoint-large_) [__768px - 960px__]
+`@large` - ( _min-width: breakpoint-medium_ ) and ( _max-width: breakpoint-large_ ) [__768px - 960px__]
 
-`@xlarge` - ( _min-width: breakpoint-large_) [__960px+__]
+`@xlarge` - ( _min-width: breakpoint-large_ ) [__960px+__]
 
 <br>
 
-These four size names ( __small__, __medium__, __large__, __xlarge__) can be concatenated into the other classes.
+These four size names ( __small__, __medium__, __large__, __xlarge__ ) can be concatenated into the other classes.
 
 <br>
 
@@ -83,7 +83,7 @@ We can combine all of these classes to easily create a responsive layout:
 ```
 It is important to order classes from smallest to largest (mobile-first).
 
-Larger sizes do not override smaller sizes. Generic classes (flex-width-1) will override sized classes (flex-small-width-1) if they are placed later in the order. So, place generic classes at the beginning to set styles that only take effect if you have not used more specific sized classes for that breakpoint. For example:
+Larger sizes do not override smaller sizes. Generic classes (`.flex-width-4`) will override sized classes (`.flex-small-width-6`) if they are placed later in the order. So, place generic classes at the beginning to set styles that only take effect if you have not used more specific sized classes for that breakpoint. For example:
 
 ```
 <div class="flex-parent">
@@ -116,7 +116,7 @@ These classes can be applied to increase or decrease the order in which flex-chi
 <div id="one" class="flex-child flex-order-pos-2"></div>
 <div id="two" class="flex-child flex-order-neg-1"></div>
 ```
-In this example, div#two will appear before div#one.
+In this example, `div#two` will appear before `div#one`.
 
 <br>
 
@@ -127,11 +127,9 @@ ___
 
 These classes can be applied to allow flex-child elements to grow or shrink to fill the flex-parent. Flex-child elements will not grow at all until a `.flex-grow-1` class is applied, likewise for shrinking. 
 
-* If only one flex-child of many has a .flex-grow-1 class, that child will grow.
-* If all flex-child elements have a .flex-grow-1 class, they will all grow equally.
-* If one flex-child element has a .flex-grow-6 class while the rest have .flex-grow-1, that child will grow at six times the rate of the other child elements.
-
-<br>
+* If only one flex-child of many has a `.flex-grow-1` class, that child will grow.
+* If all flex-child elements have a `.flex-grow-1` class, they will all grow equally.
+* If one flex-child element has a `.flex-grow-6` class while the rest have `.flex-grow-1`, that child will grow at six times the rate of the other child elements.
 
 All of these same rules apply for shrinking. And, as above, the four size names can be concatenated:
 
