@@ -20,9 +20,9 @@ The main media queries are controlled by the breakpoint variables.
 ###Breakpoint Variables:
 `@breakpoint-small` - 320px
 
-`@breakpoint-small` - 768px
+`@breakpoint-medium` - 768px
 
-`@breakpoint-small` - 960px
+`@breakpoint-large` - 960px
 
 <br>
 
