@@ -1,13 +1,3 @@
-Section Header
----------
-###Subheader
-**Bolded text**
-
-`.classes` - descriptions
-
-<br>
-
-
 #Flex Items
 
 There are two main element types:
@@ -33,19 +23,21 @@ The main media queries are controlled by the breakpoint variables.
 
 `@breakpoint-small` - 960px
 
+<br>
+
 ###Media Queries:
 
-`@small` - (max-width: breakpoint-small) [up to 320px]
+`@small` - (max-width: breakpoint-small) [**up to 320px**]
 
-`@medium` - (min-width: breakpoint-small) and (max-width: breakpoint-medium) [320px - 768px]
+`@medium` - (min-width: breakpoint-small) and (max-width: breakpoint-medium) [**320px - 768px**]
 
-`@large` - (min-width: breakpoint-medium) and (max-width: breakpoint-large) [768px - 960px]
+`@large` - (min-width: breakpoint-medium) and (max-width: breakpoint-large) [**768px - 960px**]
 
-`@xlarge` - (min-width: breakpoint-large) [960px+]
+`@xlarge` - (min-width: breakpoint-large) [**960px+**]
 
 <br>
 
-These four size names (small, medium, large, xlarge) can be concatenated into the other classes.
+These four size names (**small**, __medium__, large, xlarge) can be concatenated into the other classes.
 
 <br>
 
