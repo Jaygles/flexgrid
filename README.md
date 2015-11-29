@@ -72,7 +72,7 @@ As stated above, each of the four size names may be concatenated into the classe
 
 <br>
 
-We can combine all of these classes to easily create a responsive layout:
+We can combine all of these classes to easily create a responsive layout. It is important to order classes from smallest to largest (mobile-first):
 
 ```
 <div class="flex-parent">
@@ -81,8 +81,7 @@ We can combine all of these classes to easily create a responsive layout:
 </div>
 
 ```
-It is important to order classes from smallest to largest (mobile-first).
-
+<br>
 Larger sizes do not override smaller sizes. Generic classes (`.flex-width-4`) will override sized classes (`.flex-small-width-6`) if they are placed later in the order. So, place generic classes at the beginning to set styles that only take effect if you have not used more specific sized classes for that breakpoint. For example:
 
 ```
@@ -123,6 +122,7 @@ In this example, `div#two` will appear before `div#one`.
 The maximum value for order-pos or order-neg is 12 and the minimum is 1.
 
 <br>
+
 ___
 
 #Grow and Shrink
