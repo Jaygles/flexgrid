@@ -120,6 +120,9 @@ In this example, `div#two` will appear before `div#one`.
 
 <br>
 
+The maximum value for order-pos or order-neg is 12 and the minimum is 1.
+
+<br>
 ___
 
 #Grow and Shrink
@@ -139,7 +142,7 @@ All of these same rules apply for shrinking. And, as above, the four size names 
 .flex-xlarge-shrink-6
 ```
 
-The maximum value for flex-grow or flex-shrink is 6 and the minimum is 1.
+The maximum value for grow or shrink is 6 and the minimum is 1.
 
 <br>
 
