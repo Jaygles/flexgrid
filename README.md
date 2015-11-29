@@ -27,9 +27,9 @@ The main media queries are controlled by the breakpoint variables.
 
 ###Media Queries:
 
-`@small` - ( _max-width: breakpoint-small_) [__up to 320px__]
+`@small` - (_max-width: breakpoint-small_) [__up to 320px__]
 
-`@medium` - ( _min-width: breakpoint-small_) and ( _max-width: breakpoint-medium_) [__320px - 768px__]
+`@medium` - (_min-width: breakpoint-small_) and ( _max-width: breakpoint-medium_) [__320px - 768px__]
 
 `@large` - ( _min-width: breakpoint-medium_) and ( _max-width: breakpoint-large_) [__768px - 960px__]
 
@@ -48,15 +48,15 @@ ___
 
 This is a 12 grid system. To set the width of a flex-child element across all media sizes:
 
-`.flex-width-1` - occupies **<sup>1</sup>/<sub>12<sub>**th of the flex-parent width (__8.333%)
+`.flex-width-1` - occupies <sup>1</sup>/<sub>12<sub> of the flex-parent width ( __8.333%__ )
 
-`.flex-width-2` - occupies **2/12**<sup>th</sup> of the flex-parent width ( __16.666%__)
+`.flex-width-2` - occupies **2/12**<sup>th</sup> of the flex-parent width ( __16.666%__ )
 
-`.flex-width-3` - occupies **3/12**<sup>th</sup> of the flex-parent width ( __25%__)
+`.flex-width-3` - occupies **3/12**<sup>th</sup> of the flex-parent width ( __25%__ )
 
-`.flex-width-6` - occupies **6/12**<sup>th</sup> of the flex-parent width ( __50%__)
+`.flex-width-6` - occupies **6/12**<sup>th</sup> of the flex-parent width ( __50%__ )
 
-`.flex-width-12` - occupies **12/12**<sup>th</sup> of the flex-parent width ( __100%__)
+`.flex-width-12` - occupies **12/12**<sup>th</sup> of the flex-parent width ( __100%__ )
 
 <br>
 
