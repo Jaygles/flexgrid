@@ -33,7 +33,7 @@ The main media queries are controlled by the breakpoint variables.
 
 `@large` - ( _min-width: breakpoint-medium_ ) and ( _max-width: breakpoint-large_ ) [__768px - 960px__]
 
-`@xlarge` - ( _min-width: breakpoint-large_ ) [__960px+__]
+`@xlarge` - ( _min-width: breakpoint-large_ ) [__960px and up__]
 
 <br>
 
@@ -62,13 +62,13 @@ This is a 12 grid system. To set the width of a flex-child element across all me
 
 As stated above, each of the four size names may be concatenated into the classes:
 
-`.flex-small-width-12` - occupies 100% of the flex-parent width on small media [__up to 320px__]
+`.flex-small-width-12` - occupies 100% of the flex-parent width on small media
 
-`.flex-medium-width-6` - occupies 50% of the flex-parent width on medium media [__320px - 768px__]
+`.flex-medium-width-6` - occupies 50% of the flex-parent width on medium media
 
-`.flex-large-width-3` - occupies 25% of the flex-parent width on large media [__768px - 960px__]
+`.flex-large-width-3` - occupies 25% of the flex-parent width on large media
 
-`.flex-xlarge-width-1` - occupies 8.333% of the flex-parent width on xlarge media [__960px+__]
+`.flex-xlarge-width-1` - occupies 8.333% of the flex-parent width on xlarge media
 
 <br>
 
