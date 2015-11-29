@@ -1,0 +1,15 @@
+{
+  "name": "flexgrid",
+  "version": "0.0.1",
+  "description": "A flexbox grid system.",
+  "repository": {
+    "type": "git",
+    "url": "https://cpersinger@stash.vmlapps.com/scm/~cpersinger/ford-flexgrid.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.5"
+  }
+}

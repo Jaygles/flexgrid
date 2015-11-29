@@ -1,0 +1,10 @@
+/* Breakpoint Variables */
+
+@breakpoint-small: 320px;
+@breakpoint-medium: 768px;
+@breakpoint-large: 960px;
+
+@small: ~"only screen and (max-width: @{breakpoint-small})";
+@medium: ~"only screen and (min-width: @{breakpoint-small}) and (max-width: @{breakpoint-medium})";
+@large: ~"only screen and (min-width: @{breakpoint-medium}) and (max-width: @{breakpoint-large})";
+@xlarge: ~"only screen and (min-width: @{breakpoint-large})";

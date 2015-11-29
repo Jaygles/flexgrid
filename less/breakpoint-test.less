@@ -1,0 +1,33 @@
+@import "breakpoint-variables.less";
+
+
+
+/* Breakpoint Test */
+
+body:after { 
+  background: blue;
+  color: white;
+  content: "undefined";
+  left: 0;
+  padding: .5em 1em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  z-index: 99;
+  @media @small {
+    background: orange;
+    content: "small";
+  }
+  @media @medium {
+    background: purple;
+    content: "medium";
+  }
+  @media @large {
+    background: green;
+    content: "large";
+  }
+  @media @xlarge {
+    background: blue;
+    content: "xlarge";
+  }
+}
