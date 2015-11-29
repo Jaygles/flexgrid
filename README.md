@@ -48,15 +48,15 @@ ___
 
 This is a 12 grid system. To set the width of a flex-child element across all media sizes:
 
-`.flex-width-1` - occupies <sup>1</sup>/<sub>12<sub> of the flex-parent width ( __8.333%__ )
+`.flex-width-1` - occupies <sup>1</sup>/<sub>12</sub> of the flex-parent width ( __8.333%__ )
 
-`.flex-width-2` - occupies **2/12**<sup>th</sup> of the flex-parent width ( __16.666%__ )
+`.flex-width-2` - occupies <sup>2</sup>/<sub>12</sub> of the flex-parent width ( __16.666%__ )
 
-`.flex-width-3` - occupies **3/12**<sup>th</sup> of the flex-parent width ( __25%__ )
+`.flex-width-3` - occupies <sup>3</sup>/<sub>12</sub> of the flex-parent width ( __25%__ )
 
-`.flex-width-6` - occupies **6/12**<sup>th</sup> of the flex-parent width ( __50%__ )
+`.flex-width-6` - occupies <sup>6</sup>/<sub>12</sub> of the flex-parent width ( __50%__ )
 
-`.flex-width-12` - occupies **12/12**<sup>th</sup> of the flex-parent width ( __100%__ )
+`.flex-width-12` - occupies <sup>12</sup>/<sub>12</sub> of the flex-parent width ( __100%__ )
 
 <br>
 
