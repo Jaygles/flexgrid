@@ -13,7 +13,8 @@ ___
 
 The main media queries are controlled by the breakpoint variables.
 
-###Breakpoint Variables:
+###Breakpoint Variables
+
 `@breakpoint-small` - 320px
 
 `@breakpoint-medium` - 768px
@@ -22,7 +23,7 @@ The main media queries are controlled by the breakpoint variables.
 
 <br>
 
-###Media Queries:
+###Media Queries
 
 `@small` - ( _max-width: breakpoint-small_ ) [__up to 320px__]
 
@@ -44,7 +45,7 @@ ___
 #Width
 
 
-This is a 12 grid system. To set the width of a flex-child element across all media sizes:
+This is a 12-column grid. To set the width of a flex-child element across all media sizes:
 
 `.flex-width-1` - occupies <sup>1</sup>/<sub>12</sub> of the flex-parent width ( __8.333%__ )
 
@@ -125,6 +126,26 @@ The maximum value for order-pos or order-neg is 12 and the minimum is 1.
 ___
 
 <br>
+#Offset
+
+
+These classes can be applied to offset flex-child elements. For example, offsetting a flex-child element with `.flex-offset-3` treats that element as if it comes after another flex-child element with `.flex-width-3`. In other words, `.flex-offset-3` is equivalent to `margin-left: 25%;`. 
+
+As always, the four size names can be concatenated:
+
+```
+.flex-offset-2
+.flex-medium-offset-5
+.flex-xlarge-offset-9
+```
+
+The maximum value for offset is 12 and the minimum is 1.
+
+<br>
+
+___
+
+<br>
 #Grow and Shrink
 
 
@@ -152,7 +173,7 @@ ___
 #Utility
 
 
-###Float:
+###Float
 `.flex-float-left` - float a flex-child element to the left
 
 `.flex-float-right` - float a flex-child element to the right
@@ -166,7 +187,7 @@ The four name sizes can be concatenated:
 
 <br>
 
-###Other:
+###Other
 `.flex-center` - same as `margin: 0 auto;`
 
 `.flex-no-wrap` - set on flex-parent to prevent flex-child elements from wrapping to next line
