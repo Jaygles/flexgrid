@@ -1,10 +1,6 @@
 #Flex Items
 
-There are two main element types:
-
-`.flex-parent` and `.flex-child`
-
-<br>
+There are two main element types: `.flex-parent` and `.flex-child`
 
 Classes are meant to be applied to one element type or the other, but not both.
 
