@@ -34,18 +34,18 @@ ___
 
 ##Order
 
-###Increase
+###Decrease - ####appears earlier
+
+`.flex-order-neg-1` - decrease flex-child order by 1
+
+`.flex-order-neg-12` - decrease flex-child order by 12
+
+###Increase - ####appears later
 
 `.flex-order-pos-1` - increase flex-child order by 1
 
 `.flex-order-pos-12` - increase flex-child order by 12
 
-
-###Decrease
-
-`.flex-order-neg-1` - decrease flex-child order by 1
-
-`.flex-order-neg-12` - decrease flex-child order by 12
 
 ___
 
