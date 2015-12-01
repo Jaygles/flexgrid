@@ -1,4 +1,6 @@
-#Breakpoints
+Breakpoints
+---------
+
 `breakpoint-small` - 320px
 
 `breakpoint-medium` - 768px
