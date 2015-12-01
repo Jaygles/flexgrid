@@ -20,7 +20,8 @@ Breakpoints
 
 `breakpoint-large-up` - min-width breakpoint-large
 
-<br><br><br>
+<br>
+
 ___
 
 Flex Items
