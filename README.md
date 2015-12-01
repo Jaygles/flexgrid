@@ -6,7 +6,7 @@ Breakpoints
 
 `breakpoint-large` - 960px
 
-<br><br><br>
+<br><br>
 
 `breakpoint-small-down` - max-width breakpoint-small
 
