@@ -1,8 +1,4 @@
-#Flexbox Grid
-
-___
-
-##Breakpoints
+#Breakpoints
 `breakpoint-small` - 320px
 
 `breakpoint-medium` - 768px
@@ -24,8 +20,7 @@ ___
 
 ___
 
-##Flex Items
-####parent and child
+#Flex Items
 
 `.flex-parent` - flex container 
 
@@ -33,7 +28,7 @@ ___
 
 ___
 
-##Widths
+#Widths
 ####fractions of 12
 
 `.flex-width-1` - takes up 1/12th (8.333%) of the parent container
@@ -44,7 +39,7 @@ ___
 
 ___
 
-##Order
+#Order
 
 ###Decrease - appears earlier
 
@@ -61,7 +56,7 @@ ___
 
 ___
 
-##Grow and Shrink
+#Grow and Shrink
 
 ###Grow:
 `.flex-grow-1` - this item will be 
@@ -76,7 +71,7 @@ ___
 
 ___
 
-##Utility
+#Utility
 
 ###Float:
 `.flex-float-left` - float flex-child left
