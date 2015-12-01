@@ -60,7 +60,7 @@ ___
 Order
 -----------
 
-####Negative
+###Negative
 **(Decrease order - appears earlier)**
 
 `.flex-order-neg-1` - decrease flex-child order by 1
@@ -69,7 +69,7 @@ Order
 
 <br>
 
-####Positive
+###Positive
 **(Increase order - appears later)**
 
 `.flex-order-pos-1` - increase flex-child order by 1
@@ -83,7 +83,7 @@ ___
 Grow and Shrink
 -----------
 
-####Grow:
+###Grow:
 **(Allow flex-child item to grow)**
 
 `.flex-grow-1`
@@ -92,7 +92,7 @@ Grow and Shrink
 
 <br>
 
-####Shrink:
+###Shrink:
 **(Allow flex-child item to shrink)**
 
 `.flex-shrink-1`
@@ -106,7 +106,7 @@ ___
 Utility
 -----------
 
-####Float:
+###Float:
 `.flex-float-left` - float flex-child left
 
 `.flex-float-right` - float flex-child right
