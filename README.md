@@ -29,7 +29,7 @@ ___
   
 
 ___
-#
+# 
 #Widths
 ####fractions of 12
 
@@ -41,7 +41,7 @@ ___
   
 
 ___
-#
+# 
 #Order
 
 ###Decrease - appears earlier
