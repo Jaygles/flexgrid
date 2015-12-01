@@ -12,9 +12,13 @@ Breakpoints
 
 `breakpoint-small-up` - min-width breakpoint-small
 
+<br>
+
 `breakpoint-medium-down` - max-width breakpoint-medium
 
 `breakpoint-medium-up` - min-width breakpoint-medium
+
+<br>
 
 `breakpoint-large-down` - max-width breakpoint-large
 
@@ -31,6 +35,8 @@ Flex Items
 
 `.flex-child` - flex child item
 
+<br>
+
 ___
 
 Widths
@@ -43,6 +49,8 @@ Widths
 
 `.flex-width-12` - takes up 12/12th (**100%**) of the parent container
 
+<br>
+
 ___
 
 Order
@@ -54,11 +62,15 @@ Order
 
 `.flex-order-neg-12` - decrease flex-child order by 12
 
+<br>
+
 ####Increase - appears later
 
 `.flex-order-pos-1` - increase flex-child order by 1
 
 `.flex-order-pos-12` - increase flex-child order by 12
+
+<br>
 
 ___
 
@@ -70,11 +82,14 @@ Grow and Shrink
 
 `.flex-grow-6` - this item will be 6 times as large
 
+<br>
 
 ####Shrink:
 `.flex-shrink-1` - this item will be
 
 `.flex-shrink-6` - this item will be 1/6th as large
+
+<br>
 
 ___
 
@@ -85,3 +100,5 @@ Utility
 `.flex-float-left` - float flex-child left
 
 `.flex-float-right` - float flex-child right
+
+<br>
