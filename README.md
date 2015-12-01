@@ -24,7 +24,8 @@ ___
 
 ___
 
-##Flex Items - parent and child
+##Flex Items
+####parent and child
 
 `.flex-parent` - flex container 
 
@@ -32,7 +33,8 @@ ___
 
 ___
 
-##Widths - fractions of 12
+##Widths
+####fractions of 12
 
 `.flex-width-1` - takes up 1/12th (8.333%) of the parent container
 
