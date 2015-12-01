@@ -5,7 +5,9 @@ Breakpoints
 `breakpoint-medium` - 768px
 
 `breakpoint-large` - 960px
+
 <br><br><br>
+
 `breakpoint-small-down` - max-width breakpoint-small
 
 `breakpoint-small-up` - min-width breakpoint-small
@@ -18,6 +20,7 @@ Breakpoints
 
 `breakpoint-large-up` - min-width breakpoint-large
 
+<br><br><br>
 ___
 
 Flex Items
