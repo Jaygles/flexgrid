@@ -80,8 +80,8 @@ Order
 
 ___
 
-#Grow and Shrink
-
+Grow and Shrink
+-----------
 
 ###Grow:
 **(Allow flex-child item to grow)**
