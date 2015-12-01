@@ -43,11 +43,11 @@ Widths
 -----------
 ####Fractions of 12
 
-`.flex-width-1` - takes up 1/12th (**8.333%**) of the parent container
+`.flex-width-1` - takes up 1/12th (*8.333%*) of the parent container
 
-`.flex-width-6` - takes up 6/12th (**50%**) of the parent container
+`.flex-width-6` - takes up 6/12th (*50%*) of the parent container
 
-`.flex-width-12` - takes up 12/12th (**100%**) of the parent container
+`.flex-width-12` - takes up 12/12th (*100%*) of the parent container
 
 <br>
 
