@@ -45,6 +45,10 @@ Widths
 
 `.flex-width-1` - takes up **1/12**<sup>th</sup> of the parent container **(8.333%)**
 
+`.flex-width-2` - takes up **2/12**<sup>th</sup> of the parent container **(16.666%)**
+
+`.flex-width-3` - takes up **3/12**<sup>th</sup> of the parent container **(25%)**
+
 `.flex-width-6` - takes up **6/12**<sup>th</sup> of the parent container **(50%)**
 
 `.flex-width-12` - takes up **12/12**<sup>th</sup> of the parent container **(100%)**
@@ -80,16 +84,20 @@ Grow and Shrink
 -----------
 
 ####Grow:
-`.flex-grow-1` - this item will be 
+**allow flex-child item to grow**
 
-`.flex-grow-6` - this item will be 6 times as large
+`.flex-grow-1`
+
+`.flex-grow-6` - this item will be **6 times** as large
 
 <br>
 
 ####Shrink:
-`.flex-shrink-1` - this item will be
+**allow flex-child item to shrink**
 
-`.flex-shrink-6` - this item will be 1/6th as large
+`.flex-shrink-1`
+
+`.flex-shrink-6` - this item will be **1/6**<sup>th</sup> as large
 
 <br>
 
