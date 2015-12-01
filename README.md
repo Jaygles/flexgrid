@@ -33,7 +33,7 @@ ___
 
 Widths
 -----------
-####fractions of 12
+####Fractions of 12
 
 `.flex-width-1` - takes up 1/12th (8.333%) of the parent container
 
@@ -46,15 +46,13 @@ ___
 Order
 -----------
 
-###Decrease
-####( appears earlier )
+####Decrease - appears earlier
 
 `.flex-order-neg-1` - decrease flex-child order by 1
 
 `.flex-order-neg-12` - decrease flex-child order by 12
 
-###Increase
-####( appears later )
+####Increase - appears later
 
 `.flex-order-pos-1` - increase flex-child order by 1
 
@@ -65,13 +63,13 @@ ___
 Grow and Shrink
 -----------
 
-###Grow:
+####Grow:
 `.flex-grow-1` - this item will be 
 
 `.flex-grow-6` - this item will be 6 times as large
 
 
-###Shrink:
+####Shrink:
 `.flex-shrink-1` - this item will be
 
 `.flex-shrink-6` - this item will be 1/6th as large
@@ -81,7 +79,7 @@ ___
 Utility
 -----------
 
-###Float:
+####Float:
 `.flex-float-left` - float flex-child left
 
 `.flex-float-right` - float flex-child right
