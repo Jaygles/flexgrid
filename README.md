@@ -43,9 +43,9 @@ Widths
 -----------
 ####Fractions of 12
 
-`.flex-width-1` - takes up **1/12**<sup>th</sup> of the parent container (**8.333**%)
+`.flex-width-1` - takes up **1/12**<sup>th</sup> of the parent container **(8.333%)**
 
-`.flex-width-6` - takes up **6/12**<sup>th</sup> of the parent container (**50%**)
+`.flex-width-6` - takes up **6/12**<sup>th</sup> of the parent container **(50%)**
 
 `.flex-width-12` - takes up **12/12**<sup>th</sup> of the parent container **(100%)**
 
@@ -56,7 +56,8 @@ ___
 Order
 -----------
 
-####Decrease - appears earlier
+####Negative
+**(decrease order - appears earlier)**
 
 `.flex-order-neg-1` - decrease flex-child order by 1
 
@@ -64,7 +65,8 @@ Order
 
 <br>
 
-####Increase - appears later
+####Positive
+**(increase order - appears later)**
 
 `.flex-order-pos-1` - increase flex-child order by 1
 
