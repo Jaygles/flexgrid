@@ -24,23 +24,23 @@ ___
 
 ___
 
-##Flex Items
+##Flex Items - parent and child
 
 ___
 
-##Widths
+##Widths - fractions of 12
 
 ___
 
 ##Order
 
-###Decrease - ####appears earlier
+###Decrease - appears earlier
 
 `.flex-order-neg-1` - decrease flex-child order by 1
 
 `.flex-order-neg-12` - decrease flex-child order by 12
 
-###Increase - ####appears later
+###Increase - appears later
 
 `.flex-order-pos-1` - increase flex-child order by 1
 
