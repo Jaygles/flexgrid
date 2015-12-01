@@ -43,7 +43,8 @@ Widths
 
 ___
 
-#Order
+Order
+-----------
 
 ###Decrease
 ####( appears earlier )
@@ -61,7 +62,8 @@ ___
 
 ___
 
-#Grow and Shrink
+Grow and Shrink
+-----------
 
 ###Grow:
 `.flex-grow-1` - this item will be 
@@ -76,7 +78,8 @@ ___
 
 ___
 
-#Utility
+Utility
+-----------
 
 ###Float:
 `.flex-float-left` - float flex-child left
