@@ -19,6 +19,7 @@
 `breakpoint-large-up` - min-width breakpoint-large
  
 
+
 ___
 
 #Flex Items
@@ -27,6 +28,7 @@ ___
 
 `.flex-child` - flex child item
  
+
 
 ___
 
@@ -39,6 +41,7 @@ ___
 
 `.flex-width-12` - takes up 12/12th (100%) of the parent container
  
+
 
 ___
 
@@ -57,6 +60,7 @@ ___
 `.flex-order-pos-12` - increase flex-child order by 12
  
 
+
 ___
 
 #Grow and Shrink
@@ -73,6 +77,7 @@ ___
 `.flex-shrink-6` - this item will be 1/6th as large
  
 
+
 ___
 
 #Utility
@@ -81,4 +86,3 @@ ___
 `.flex-float-left` - float flex-child left
 
 `.flex-float-right` - float flex-child right
- 
