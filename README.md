@@ -1,5 +1,5 @@
 Breakpoints
----------
+-----------
 
 `breakpoint-small` - 320px
 
@@ -22,7 +22,8 @@ Breakpoints
 
 ___
 
-#Flex Items
+Flex Items
+-----------
 
 `.flex-parent` - flex container 
 
@@ -30,7 +31,8 @@ ___
 
 ___
 
-#Widths
+Widths
+-----------
 ####fractions of 12
 
 `.flex-width-1` - takes up 1/12th (8.333%) of the parent container
